@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="welcomecc.master.cs" Inherits="welcomecc" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        h1{
+            text-align:center;
+        }
+        .auto-style1 {
+            width: 100%;
+            height: 330px;
+            margin-bottom: 60px;
+        }
+        .auto-style3 {
+            width: 22%;
+        }
+        .auto-style4 {
+            width: 965px;
+        }
+        .auto-style8 {
+            width: 563px;
+            height: 17px;
+        }
+        .auto-style9 {
+            width: 563px;
+        }
+        .auto-style10 {
+            margin-top: 21px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td colspan="3"><h1>Start your CONVERSIONS...!!!</h1>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3" rowspan="3"></td>
+                <td class="auto-style8">
+                    <asp:Image ID="Image1" runat="server" Height="184px" ImageUrl="~/conversionlogo1.jpeg" Width="529px" />
+                    <br />
+                </td>
+                <td class="auto-style4" rowspan="3">
+                    <asp:Image ID="Image2" runat="server" CssClass="auto-style10" Height="409px" ImageUrl="~/money.png" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style8">
+                    <br />
+                            <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                                <CurrentNodeStyle ForeColor="#333333" />
+                                <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                                <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                                <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                            </asp:SiteMapPath>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style9">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            <br />
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

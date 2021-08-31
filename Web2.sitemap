@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="conversion.aspx" title="Conversions"  description="">
+        <siteMapNode url="emiconvert.aspx" title="EMI Conversions"  description="" />
+        <siteMapNode url="moneyconvertor.aspx" title="Money Conversions"  description="" />
+      <siteMapNode url="unitconvert.aspx" title="Unit Conversions"  description="" />
+    </siteMapNode>
+</siteMap>

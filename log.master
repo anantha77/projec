@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="log.master.cs" Inherits="log" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <style type="text/css">
+        h1{
+            text-align:center;
+        }
+        .auto-style1 {
+            width: 1093px;
+            height: 380px;
+        }
+        .auto-style5 {
+            text-align:center;
+            width:783px;
+            height: 49px;
+        }
+        .auto-style10 {
+            width: 159px;
+        }
+        .auto-style13 {
+            width: 1087px;
+            height: 73px;
+            margin-bottom: 1px;
+        }
+        .auto-style33 {
+            height: 44px;
+        }
+        .auto-style41 {
+            text-align: center;
+            height: 34px;
+            width: 71px;
+        }
+        .auto-style43 {
+            height: 34px;
+            }
+        .auto-style44 {
+            height: 33px;
+        }
+        .auto-style45 {
+            text-align: center;
+            height: 34px;
+            width: 150px;
+        }
+        .auto-style46 {
+            text-align: center;
+            height: 34px;
+            width: 94px;
+        }
+        .auto-style47 {
+            width: 168px;
+            height: 299px;
+        }
+        .auto-style48 {
+            width: 78px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style5" colspan="6"><h1 class="auto-style13" style="font-style: oblique; text-decoration: blink; background-color: #0000FF; background-attachment: scroll;" translate="no">Welcome to&nbsp; Conversion Calci World..!!!</h1> </td>
+            </tr>
+            <tr>
+                <td class="auto-style48" rowspan="4" style="background-color: #CC9900">
+                    <img alt="No img" class="auto-style47" src="index.jfif" /></td>
+                <td class="auto-style46" style="font-style: normal; font-variant: normal; text-transform: uppercase; color: #FF0000; font-size: medium; font-family: 'Bell MT'; text-decoration: none;" dir="ltr" colspan="0">
+                  
+                    <asp:LinkButton ID="lbhome" runat="server" PostBackUrl="~/home.aspx">home</asp:LinkButton>
+                  
+                </td>
+                <td class="auto-style41" style="font-style: normal; font-variant: normal; text-transform: uppercase; color: #FF0000; font-size: medium; font-family: 'Bell MT'; text-decoration: none;" dir="ltr" colspan="0">
+                  
+                    <asp:LinkButton ID="lblfeedback" runat="server" OnClick="lblfeedback_Click">Overview</asp:LinkButton>
+                  
+                </td>
+                <td class="auto-style45" style="font-style: normal; font-variant: normal; text-transform: uppercase; color: #FF0000; font-size: medium; font-family: 'Bell MT'; text-decoration: none;" dir="ltr" colspan="0">
+                  
+                    <asp:LinkButton ID="lblabtus" runat="server" OnClick="lblabtus_Click">about us</asp:LinkButton>
+                  
+                </td>
+                <td class="auto-style43" style="font-style: normal; font-variant: normal; text-transform: uppercase; color: #FF0000; font-size: medium; font-family: 'Bell MT'; text-decoration: none;" dir="ltr">
+                  
+                    <asp:LinkButton ID="lblcnt" runat="server" OnClick="lblcnt_Click">Terms of use</asp:LinkButton>
+                  
+                </td>
+                <td class="auto-style10" rowspan="4" style="background-color: #FFFF66"></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="auto-style33">
+                  
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                        <CurrentNodeStyle ForeColor="#333333" />
+                        <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                        <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                        <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                    </asp:SiteMapPath>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="auto-style44">
+                  
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                  
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            <br />
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

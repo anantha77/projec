@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="home.aspx" title="HOME"  description="">
+    <siteMapNode url="login.aspx" title="LOGIN"  description="" >
+      <siteMapNode url="conversion.aspx" title="conversions"  description="" >
+        <siteMapNode url="emiconvert.aspx" title="EMI Conversions"  description=""/>
+        <siteMapNode url="moneyconvertor.aspx" title="Money Conversions"  description=""/>
+        <siteMapNode url="unitconvert.aspx" title="Unit Conversions"  description=""/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="signup.aspx" title="SIGNUP"  description=""/>
+    <siteMapNode url="freeconversions.aspx" title="FREE TRIAL"  description="">
+      <siteMapNode url="moneywoacc.aspx" title="Money Conversions"  description=""/>
+      <siteMapNode url="emiwoacc.aspx" title="EMI Conversions"  description=""/>
+      <siteMapNode url="untiwoacc.aspx" title="Unit Conversions"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="overview.aspx" title="OVERVIEW"  description=""/>
+    <siteMapNode url="aboutus.aspx" title="ABOUT US" description=""/>
+    <siteMapNode url="terms.aspx" title="TERMS OF USE" description=""/>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="http://localhost:55811/freeconversions.aspx " title="conversions"  description="">
+        <siteMapNode url="http://localhost:55811/untiwoacc.aspx " title="unit conversions"  description="" />
+        <siteMapNode url=" http://localhost:55811/moneywoacc.aspx" title="money conversions"  description="" />
+        <siteMapNode url=" http://localhost:55811/emiwoacc.aspx" title="EMI conversions" description=""/>
+    </siteMapNode>
+</siteMap>
